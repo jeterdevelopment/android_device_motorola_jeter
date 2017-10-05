@@ -2,6 +2,7 @@
 ------------------
 
 Sync Omni Repo
+
 First you need to download and sync the omni source
 	
 		repo init -u git://github.com/omnirom/android.git -b android-7.1
