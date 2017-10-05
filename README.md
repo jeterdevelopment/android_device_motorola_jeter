@@ -16,6 +16,12 @@ From a terminal prompt inside your working folder
 
 	git clone https://github.com/Theitfixer85/android_device_motorola_cedric -b twrp device/motorola/cedric
 	
+
+## Clone other required repos ##
+---------------
+	git clone https://github.com/Wzedlare/android_vendor_motorola_cedric -b cm-14.1 vendor/motorola/cedric
+	git clone https://github.com/CyanogenMod/android_device_qcom_common -b cm-14.1 deivce/qcom/common
+	
 	
 ## Start the build ##
 ---------------
