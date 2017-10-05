@@ -19,7 +19,7 @@ From a terminal prompt inside your working folder
 	
 ## Start the build ##
 ---------------
-Type the following in a terminal prompt inside from root of your working folder
+Type the following in a terminal prompt inside from inside the root of your working folder
 
 	source build/envsetup.sh
 	lunch
