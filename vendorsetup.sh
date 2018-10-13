@@ -1,1 +1,2 @@
+add_lunch_combo omni_jeter-eng
 add_lunch_combo omni_jeter-userdebug
