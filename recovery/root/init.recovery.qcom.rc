@@ -16,5 +16,9 @@ service sbinqseecomd /sbin/qseecomd
     group root
     seclabel u:r:recovery:s0
 
+on init
+    setprop ro.build.system_root_image true
+
 on property:ro.crypto.fs_crypto_blkdev=/dev/block/dm-0
     stop sbinqseecomd
+
