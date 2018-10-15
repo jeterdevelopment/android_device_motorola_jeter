@@ -67,8 +67,7 @@ on init
     setprop ro.hardware.gatekeeper msm8937
     setprop ro.hardware.bootctrl msm8937
     setprop ro.build.system_root_image true
-    start prepdecrypt
-    #setprop crypto.ready 1
+    setprop crypto.ready 1
 
 on property:crypto.ready=1
     start hwservicemanager
