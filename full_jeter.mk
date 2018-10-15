@@ -11,7 +11,8 @@ TARGET_SCREEN_WIDTH := 720
 
 # Fstab
 PRODUCT_COPY_FILES += \
-    device/motorola/jeter/recovery/root/fstab.qcom:root/fstab.qcom
+    device/motorola/jeter/recovery/root/fstab.qcom:root/fstab.qcom \
+    device/motorola/jeter/recovery/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := jeter
