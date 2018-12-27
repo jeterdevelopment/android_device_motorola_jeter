@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-egis.idc:system/usr/idc/uinput-egis.idc
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@1.0-service-sdm
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5x06_tl.kl:system/usr/keylayout/ft5x06_tl.kl \

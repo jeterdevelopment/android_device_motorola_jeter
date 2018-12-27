@@ -1,0 +1,2 @@
+type display_data_file, file_type;
+type pps_socket, file_type;
