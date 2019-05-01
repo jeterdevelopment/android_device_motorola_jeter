@@ -1,4 +1,4 @@
-## How To Compile TWRP For Cedric ##
+## How To Compile TWRP For Jeter ##
 ------------------
 
 Sync Omni Repo
@@ -14,13 +14,13 @@ First you need to download and sync the omni source
 
 From a terminal prompt inside your working folder
 
-	git clone https://github.com/Theitfixer85/android_device_motorola_cedric -b twrp device/motorola/cedric
+	git clone https://github.com/jeterdevelopment/android_device_motorola_jeter -b twrp-7.1 device/motorola/jeter
 	
 
 ## Clone other required repos ##
 ---------------
-	git clone https://github.com/Wzedlare/android_vendor_motorola_cedric -b cm-14.1 vendor/motorola/cedric
-	git clone https://github.com/CyanogenMod/android_device_qcom_common -b cm-14.1 deivce/qcom/common
+
+	git clone https://github.com/LineageOS/android_device_qcom_common -b cm-14.1 deivce/qcom/common
 	
 	
 ## Start the build ##
@@ -29,17 +29,16 @@ Type the following in a terminal prompt inside from inside the root of your work
 
 	source build/envsetup.sh
 	lunch
-	select omni_cedric-userdebug
-	make recoveryimage
+	select omni_jeter-eng
+	make recoveryimage -j$(nproc --all)
 	
 	
 ## Flashing the recovery ##
 ---------------
 The recovery will be outputted to the following folder
 
-	out/target/product/cedric/recovery.img
+	out/target/product/jeter/recovery.img
 	
 Assuming you have fastboot all setup put your phone into bootloader mode and type the following in a terminal prompt within the folder containing the recovery file - or you can drag and drop the file into the terminal window to auto complete the path
 	
 	fastboot flash recovery recovery.img
-	
