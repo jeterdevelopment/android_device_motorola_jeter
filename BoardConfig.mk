@@ -92,6 +92,10 @@ include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)/libhidl
+
 # Treble
 BOARD_VNDK_RUNTIME_DISABLE := true
 BOARD_VNDK_VERSION := current
