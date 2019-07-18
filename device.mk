@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl \
     $(LOCAL_PATH)/keylayout/uinput-egis.kl:system/usr/keylayout/uinput-egis.kl
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext

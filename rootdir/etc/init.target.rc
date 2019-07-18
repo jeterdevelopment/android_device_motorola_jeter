@@ -1,0 +1,11 @@
+on init
+    setprop ro.product.device ${ro.product.vendor.device}
+    setprop ro.build.product ${ro.product.vendor.device}
+    setprop ro.product.name ${ro.product.vendor.name}
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint}
+
+on property:ro.boot.device=jeter
+    setprop ro.build.description "jeter-user 9 PPP29.118-17-1 cfed4 release-keys" 
+
+on property:ro.boot.device=aljeter
+    setprop ro.build.description "aljeter-user 9 PPPS29.55-25-4 da341 release-keys"
