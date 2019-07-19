@@ -1,0 +1,30 @@
+# Proprietary files for jeter
+
+# RIL
+-app/QtiTelephonyService/QtiTelephonyService.apk
+-framework/QtiTelephonyServicelibrary.jar
+-framework/qcrilhook.jar
+framework/qti-telephony-common.jar
+
+# Firmware - CapSense
+etc/firmware/AbovCapSense.BIN
+
+# Firmware - emmc
+etc/firmware/emmc_ffu_15_RC14MB.fw
+etc/firmware/emmc_ffu_15_RC1BMB.fw
+etc/firmware/emmc_ffu_15_RE1BMB.fw
+etc/firmware/emmc_ffu_15_RX14MB.fw
+etc/firmware/emmc_ffu_15_RX1BMB.fw
+
+# Firmware - ice
+etc/firmware/ice40.bin
+
+# Firmware - WLAN
+etc/firmware/wlan/prima/WCNSS_cfg.dat
+
+# Frameworks - performance
+-framework/QPerformance.jar
+-framework/UxPerformance.jar
+
+# Moto Camera
+etc/permissions/com.motorola.cameraone.xml
