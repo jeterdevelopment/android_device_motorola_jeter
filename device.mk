@@ -17,6 +17,12 @@
 PRODUCT_PACKAGES += \
     Snap
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni \
+    init.qti.fm.sh
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
