@@ -63,7 +63,7 @@ TARGET_KERNEL_SOURCE := kernel/motorola/msm8937
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 #TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-androidkernel-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androidkernel-
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := aljeter,aljeter_retail,jeter,jeter_retail
